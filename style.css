@@ -1,0 +1,100 @@
+
+#myDIV { 
+    min-height: 80vh;
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+   background-color: #050d1a ;
+    font-family: 'DM sans', sans-serif; 
+}
+
+.card{
+    width: 400px;background: 
+    radial-gradient(circle, rgba(37,99,235,0.25) 0%, transparent 70%);
+    border: 4px solid skyblue;
+    border-radius: 30px;
+    padding: 52px 44px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(37,99,235,0.15);
+} 
+.saisie{
+    margin-bottom:15px ;
+}
+  
+h1{
+    font-family:'PlayfairDisplay',serif;
+    font-size: 25px; font-weight: 1000;
+    color: white ;
+    margin-bottom: 20px; 
+}
+.con{
+    font-family: 'DM sans',serif;
+    color: cyan; margin-bottom:10px;
+}
+
+label{ 
+    display: block;
+    font-size: 15px; font-weight: 500;
+    letter-spacing: 0.08em; 
+    text-transform: uppercase;
+    color: #4a7ab5; margin-bottom: 0px; 
+}
+
+input{
+    width: 80%;
+    margin-bottom:20px;
+    background: #0d1f3c;
+    border: 1.5px solid #1e3a5f;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; color: #c8dcf8;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+
+}
+p{
+    margin-bottom:10px;
+}
+
+.togpwd{
+    position: absolute ;
+    left:240px;top:270px;
+    transform: translateY(-50%);
+    background: none; border: none;
+    cursor: pointer; color: #2a4a70;
+    font-size: 14px; padding: 10px;
+    transition: color 0.2s;
+}
+.btn{
+    width: 100%;
+    background: #2563eb;margin-top:20px;
+    color: #fff; border: none;
+    border-radius: 400px; padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-bottom:20px;
+  
+} 
+
+.btn1{
+    text-align:center ;
+    padding-left:40px ; 
+    width:300% ;
+    background: #fff;margin-top:20px;
+    color: #2563eb ; border: none;
+    border-radius: 400px; padding: 10px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  
+} 
+
