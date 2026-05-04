@@ -13,7 +13,7 @@ Projet PHP/MySQL de gestion de ventes développé sur mobile.
 ## Installation
 
 1. Cloner le repo :
-git clone https://github.com/tonpseudo/tonrepo.git
+git clone https://github.com/kamalsanens-sketch/Shop-Project.git
 
 2. Importer la base de données :
 - Ouvrir phpMyAdmin
